@@ -1,0 +1,113 @@
+body, html {
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  background: url(./telkom.jpg);
+  background-size: cover;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-img {
+   /*The image used */
+  background-image: url("telkom.jpg");
+  
+  min-height: 780px;
+
+  /*Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Add styles to the form container */
+.container {
+   position: absolute; 
+   /* right: 20px; */
+   /* border: 2px solid red; */
+  
+  margin: 18px auto;
+  max-width: 400px;
+  width:400px;
+  padding: 36px;
+  background-color: white;
+}
+
+.sign_up_flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password], input[type=number], input[type=email]{
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=number]:focus, input[type=password]:focus, input[type=text]:focus, input[type=email]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+/*Sign up js*/
+#Rules{
+    display: none;
+    background-color: #f1f1ff;
+    position: relative;
+    padding: 20px;
+    margin-top: 10px;
+}
+#Rules c {
+    padding: 10px 35px;
+    font-size: 10px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+body {
+  
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+}
+.my_input,input[type=text],select{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
